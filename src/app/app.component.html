@@ -1,0 +1,66 @@
+<div class="body-container">
+  <div>
+    <mat-toolbar color="primary">
+      <span>{{ 'programmingTask' | translate | titlecase }}</span>
+      <span class="fill-spacer"></span>
+      <button mat-button [matMenuTriggerFor]="menu">{{ currentLanguage | translate}}</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="translateLanguage('en')">{{ 'english' | translate | titlecase }}</button>
+        <button mat-menu-item (click)="translateLanguage('ch')">{{ 'mandarin' | translate | titlecase }}</button>
+      </mat-menu>
+
+    </mat-toolbar>
+  </div>
+  <form [formGroup]="greetingsForm" (ngSubmit)="onSubmit(greetingsForm.value)">
+    <mat-card class="input-container mat-elevation-z12">
+      <h2>{{ 'inputSection' | translate | titlecase }}</h2>
+      <!-- phrase, material drop down(hey or hi or other), material text box -->
+      <div>
+        <mat-form-field class="column-width">
+          <mat-label>{{ 'initialWord' | translate | titlecase }}</mat-label>
+          <mat-select formControlName="initialWord">
+            <mat-option *ngFor="let initialWord of initialWords" [value]="initialWord.value">
+              {{initialWord.viewValue | translate | titlecase}}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="greetingsForm.get('initialWord').hasError('required')">This field cannot be empty
+          </mat-error>
+        </mat-form-field>
+
+        <!-- comma, material check box -->
+        <mat-checkbox class="comma-checkbox" [color]="'primary'" formControlName="comma">
+          {{ 'comma' | translate | titlecase }}</mat-checkbox>
+      </div>
+      <!-- name, material text box -->
+      <div>
+        <mat-form-field class="column-width">
+          <mat-label>{{ 'name' | translate | titlecase }}</mat-label>
+          <input matInput placeholder="{{ 'pleaseSpecified' | translate| titlecase}}" formControlName="name">
+          <mat-error *ngIf="greetingsForm.get('initialWord').hasError('required')">This field cannot be empty
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <!-- suffix, material drop down(! or ? or other), material text box -->
+      <div>
+        <mat-form-field class="column-width">
+          <mat-label>{{ 'finalLetter' | translate | titlecase }}</mat-label>
+          <mat-select formControlName="finalLetter">
+            <mat-option *ngFor="let finalLetter of finalLetters" [value]="finalLetter.value">
+              {{ finalLetter.viewValue | translate | titlecase }}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="greetingsForm.get('initialWord').hasError('required')">This field cannot be empty
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <!-- button to trigger the message -->
+      <div>
+        <button mat-raised-button color="primary" type="submit">{{ 'promptMessage' | translate | titlecase }}</button>
+      </div>
+
+
+
+    </mat-card>
+
+  </form>
+</div>

@@ -1,0 +1,20 @@
+{
+  "hi":"你好",
+  "hello":"喂",
+  "other":"其他",
+  "pleaseSpecified":"请指定",
+  "comma":"逗号",
+  "initialWord":"首个字",
+  "name":"名字",
+  "finalLetter":"最后一个字",
+  "programmingTask": "编程任务",
+  "inputSection":"输入的部分",
+  "promptMessage":"提示信息",
+  "exclamationMark":"！",
+  "fullStop":"。",
+  "questionMark":"？",
+  "english": "英语",
+  "mandarin": "华语",
+  "en":"英",
+  "ch":"华"
+}

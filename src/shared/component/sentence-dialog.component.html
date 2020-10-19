@@ -1,0 +1,5 @@
+<div>
+  <span>{{ sentenceData.initialWord | translate | titlecase }}</span>
+  <span *ngIf="sentenceData.comma">,</span>
+  <span> {{ sentenceData.name | titlecase }}{{ sentenceData.finalLetter | translate }}</span>
+</div>

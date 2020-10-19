@@ -1,0 +1,20 @@
+{
+  "hi": "hi",
+  "hello": "hello",
+  "other": "other",
+  "pleaseSpecified": "please specified",
+  "comma": "comma",
+  "initialWord": "initial word",
+  "name": "name",
+  "finalLetter": "final letter",
+  "programmingTask": "programming task",
+  "inputSection": "input section",
+  "promptMessage": "prompt message",
+  "exclamationMark": "!",
+  "fullStop": ".",
+  "questionMark": "?",
+  "english": "english",
+  "mandarin": "mandarin",
+  "en":"en",
+  "ch":"ch"
+}
