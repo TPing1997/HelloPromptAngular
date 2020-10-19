@@ -1,18 +1,21 @@
+# Installation needed
+
+nodejs 12.0.0
 
 # Feature for this project
 
-    translation (ch.json - chinese, en.json - english)
-    dialog component
-    ngx post
+translation (ch.json - chinese, en.json - english)
+dialog component
+ngx post
 
 # Feature that can still be addded
-    burger (crud)
-    ngrx
-    lazy loading
-    infinite burger
-    lazy loaded table component
 
-
+burger (crud)
+ngrx
+lazy loading
+infinite burger
+lazy loaded table component
+    
 # ReasearchAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
