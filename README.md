@@ -1,21 +1,21 @@
 # Installation needed
 
-nodejs version 12.0.0
-angular version 8.2.0
+  nodejs version 12.0.0
+  angular version 8.2.0
 
 # Feature for this project
 
-translation (ch.json - chinese, en.json - english)
-dialog component
-ngx post
+  translation (ch.json - chinese, en.json - english)
+  dialog component
+  ngx post
 
 # Feature that can still be addded
 
-burger (crud)
-ngrx
-lazy loading
-infinite burger
-lazy loaded table component
+  burger (crud)
+  ngrx
+  lazy loading
+  infinite burger
+  lazy loaded table component
     
 # ReasearchAngular
 
