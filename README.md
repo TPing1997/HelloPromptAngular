@@ -1,7 +1,7 @@
 # Installation needed
 
-  nodejs version 12.0.0
-  angular version 8.2.0
+    nodejs version 12.0.0
+    angular version 8.2.0
 
 # Feature for this project
 
