@@ -11,6 +11,7 @@
 
 # Future Enchancement
 
+
 - burger (crud)
 - ngrx
 - lazy loading route
@@ -21,6 +22,7 @@
   - security SHA256, SHA512
   - crsf token
   - encrypted localStorage 
+  - OAuth
 
 # ReasearchAngular
 
