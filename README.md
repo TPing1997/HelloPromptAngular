@@ -1,7 +1,7 @@
 # Installation
 
-- nodejs version 12.0.0
-- angular version 8.2.0
+- Angular CLI: 8.2.0
+- Node: 12.0.0
 
 # Feature
 
