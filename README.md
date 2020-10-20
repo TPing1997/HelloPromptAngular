@@ -1,22 +1,27 @@
 # Installation needed
 
-    nodejs version 12.0.0
-    angular version 8.2.0
+- nodejs version 12.0.0
+- angular version 8.2.0
 
-# Feature for this project
+# Feature
 
-    translation (ch.json - chinese, en.json - english)
-    dialog component
-    ngx post
+- translation (ch.json - chinese, en.json - english)
+- dialog component
+- ngx post
 
-# Feature that can still be addded
+# Future Enchancement
 
-    burger (crud)
-    ngrx
-    lazy loading
-    infinite burger
-    lazy loaded table component
-    
+- burger (crud)
+- ngrx
+- lazy loading route
+- lazy loading image
+- infinite burger
+- lazy loaded table component
+- Security
+  - security SHA256, SHA512
+  - crsf token
+  - encrypted localStorage 
+
 # ReasearchAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
