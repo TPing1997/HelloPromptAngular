@@ -18,9 +18,9 @@
 - infinite burger
 - lazy loaded table component
 - Security
-  - security SHA256, SHA512
-  - crsf token
-  - encrypted localStorage 
+ - security SHA256, SHA512
+ - crsf token
+ - encrypted localStorage 
 
 # ReasearchAngular
 
